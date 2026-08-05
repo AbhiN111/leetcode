@@ -1,5 +1,6 @@
 class Solution {
     public int search(int[] nums, int target) {
+        //iterative code
         int n= nums.length;
         int low =0, high =n-1;
         while(low<=high){
